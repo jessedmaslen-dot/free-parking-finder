@@ -1,0 +1,6 @@
+{
+  "name": "SideStreet",
+  "description": "A cozy, warm neighborhood parking map where drivers can share and report real-time street and lot availability (occupied, free, broken meters) to help neighbors find parking spaces.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

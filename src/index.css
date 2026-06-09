@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Fredoka", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-terracotta: #D96B43;
+  --color-brand-sage: #6B9080;
+  --color-brand-sand: #FDFBF7;
+  --color-brand-clay: #E76F51;
+  --color-brand-cream: #F4F1DE;
+  --color-brand-warmgray: #5F5D54;
+}
+
+body {
+  background-color: #FAF6F0;
+  color: #3D3A35;
+}
+
+/* Custom styles for Leaflet elements and interactive scrollbars */
+.custom-leaflet-pin {
+  background: transparent !important;
+  border: none !important;
+}
+
+.custom-leaflet-popup .leaflet-popup-content-wrapper {
+  background: #FDFBF7;
+  border-radius: 1.25rem;
+  padding: 0;
+  box-shadow: 0 10px 30px -10px rgba(180, 140, 110, 0.25);
+  border: 2px solid #F4EBE1;
+}
+
+.custom-leaflet-popup .leaflet-popup-content {
+  margin: 0 !important;
+  line-height: inherit;
+}
+
+.custom-leaflet-popup .leaflet-popup-tip {
+  background: #FDFBF7;
+  border: 2px solid #F4EBE1;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+/* Cozy Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF6F0;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E6DCD2;
+  border-radius: 9999px;
+  border: 2px solid #FAF6F0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D5C2B1;
+}
